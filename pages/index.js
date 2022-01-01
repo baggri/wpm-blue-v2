@@ -32,7 +32,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>wpm.blue</title>
-        <meta name="description" content="wpm.blue typing game" />
+        <meta name="description" kewwords="" content="wpm.blue typing game" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
