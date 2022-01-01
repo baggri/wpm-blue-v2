@@ -38,7 +38,7 @@ export default function Home() {
       <div>
         <h1>
           <a className={styles.red}>{text.slice(0, currentKeyIndex)}</a>
-          <a className={styles.untyped}>{text.slice(currentKeyIndex)}</a>
+          <a className={styles.untyped}>{text.slice(currentKeyIndex)}</a> 
           {currentKeyIndex}
         </h1>
       </div>

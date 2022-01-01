@@ -12,6 +12,7 @@ $background: #1b1b1b;
 }
 
 .container {
+  background-color: $background;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -19,7 +20,6 @@ $background: #1b1b1b;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: $background;
 }
 
 .main {
@@ -54,7 +54,6 @@ $background: #1b1b1b;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
   background-clip: text;
-
 }
 
 .untyped {

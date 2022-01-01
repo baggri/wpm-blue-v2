@@ -1,0 +1,66 @@
+@font-face { 
+    font-family: 'Lexend';
+    src: url('LexendDeca-Regular.otf');
+  }
+  $background: #1b1b1b;
+
+.container {
+  background-color: $background;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.click{
+  font-family: inherit;
+  font-weight: 400;
+  border-radius: 30px;
+  font-size: 3em;
+  height: 100px;
+  width: 10em;
+  display: inline-block;
+  background-image: linear-gradient(259.19deg, #4AFFF4 0%, #9462FF 33.33%, #41DDFF 69.79%, #A22DFF 100%);
+  background-size: 300% 200%;
+  opacity: 0.8;
+  color: white;
+  border: 3px solid linear-gradient(259.19deg, #4AFFF4 0%, #9462FF 33.33%, #41DDFF 69.79%, #A22DFF 100%);
+}
+
+.button :hover {
+  animation: gradient 5s 1;
+  opacity: 1;
+}
+
+.title{
+  background: linear-gradient(250deg, #A22DFF, #9462FF, #41DDFF, #A22DFF, #4AFFF4, #9462FF, #41DDFF, #A22DFF, #4AFFF4, #9462FF, #41DDFF, #A22DFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6em;
+  margin: auto;
+  text-align: center;
+  margin-top: 140px;
+  background-size: 400% 200%;
+  width: 70%;
+  animation: gradient 10s 1;
+  font-family: inherit;
+  animation-direction: normal;
+}
+
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
